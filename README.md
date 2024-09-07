@@ -38,14 +38,17 @@ DB_PASSWORD=your_db_password
 DB_NAME=your_db_name
 JWT_SECRET=your_jwt_secret
 5. **Run the Application:**:
-npm start
+   ```bash
+   nodemon index.js
 
-.env and .gitignore
+## .env and .gitignore
 .env: Contains environment-specific variables for configuration. It should not be included in version control to keep sensitive information secure.
 .gitignore: Ensure that your .env file is listed in your .gitignore to prevent it from being committed to your Git repository. Example .gitignore entry:
 
-API Endpoints
+## API Endpoints
 The backend provides a set of REST API endpoints that can be called by the React frontend. Refer to the API documentation for detailed information on available endpoints and their usage.
 
-Contribution
+## Contribution
 Feel free to contribute to this project by submitting issues or pull requests. Your feedback and suggestions are welcome!
+
+
